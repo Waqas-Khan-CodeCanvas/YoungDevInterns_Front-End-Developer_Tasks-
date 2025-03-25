@@ -109,8 +109,8 @@ YoungDevInterns-Frontend-Tasks/
 ---
 
 ## 🤝 Connect with Me
-💼 **LinkedIn:** [Your LinkedIn Profile](#)  
-📂 **GitHub:** [Your GitHub Profile](#)  
-📧 **Email:** [Your Email](#)
+💼 **LinkedIn:** [Waqas Khane](https://www.linkedin.com/in/waqas-khan-a68602343/)  
+📂 **GitHub:** [Waqas Khane](https://github.com/Waqas-Khan-CodeCanvas)  
+📧 **Email:** [Email](waqaskhan0589@gmail.com)
 
 Feel free to explore, fork, or contribute! 🚀
