@@ -1,4 +1,6 @@
 # 🎬 Vue3movie-app
+[![Netlify Status](https://api.netlify.com/api/v1/badges/00885cab-159b-4026-b1cf-cc073ec45392/deploy-status)](https://app.netlify.com/sites/vue3movie-app/deploys)
+
 
 A modern, responsive web application for exploring and discovering movies. Built with Vue 3 and powered by the latest web technologies.
 
@@ -12,8 +14,6 @@ A modern, responsive web application for exploring and discovering movies. Built
 [![Pinia](https://img.shields.io/badge/Pinia-FFD02F?logo=pinia&logoColor=black)](https://pinia.vuejs.org/)
 [![Vue Router](https://img.shields.io/badge/Vue%20Router-4.x-4FC08D?logo=vue.js)](https://router.vuejs.org/)
 [![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
-[![Headless UI](https://img.shields.io/badge/Headless%20UI-1.7.x-4FC08D?logo=vue.js)](https://headlessui.dev/)
-[![Heroicons](https://img.shields.io/badge/Heroicons-2.x-4FC08D?logo=vue.js)](https://heroicons.com/)
 [![Code Style](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)](https://prettier.io/)
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/movie-explorer?style=social)](https://github.com/yourusername/movie-explorer)
 
@@ -25,6 +25,14 @@ A modern, responsive web application for exploring and discovering movies. Built
 - 🎨 Beautiful transitions and animations
 - 📱 Mobile-first approach
 - 🌙 Clean and intuitive user interface
+
+## 🌐 Live Demo
+
+Check out the live demo of the application:
+
+- [Live Movies](https://vue3movie-app.netlify.app/)
+
+---
 
 ## 🚀 Tech Stack
 
@@ -49,8 +57,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/movie-explorer.git
-cd movie-explorer
+ git clone https://github.com/Waqas-Khan-CodeCanvas/YoungDevInterns_Front-End-Developer_Tasks-.git
 ```
 
 2. Install dependencies:
@@ -107,23 +114,19 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
-**Waqas Khan**
+**Let's Connect!**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [Waqas Khan](https://github.com/Waqas-Khan-CodeCanvas)
+- LinkedIn: [Waqas khan](https://www.linkedin.com/in/waqas-khan-a68602343/)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Vue.js](https://vuejs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [TMDB API](https://www.themoviedb.org/documentation/api)
 
----
+
 
 Made with ❤️ by Waqas Khan
