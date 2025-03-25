@@ -1,116 +1,97 @@
-# YoungDevInterns Front-End Tasks
+# Movie Explorer
 
-![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)
-![API](https://img.shields.io/badge/API-Integration-blue?style=for-the-badge)
-![Performance](https://img.shields.io/badge/Performance-Optimization-brightgreen?style=for-the-badge)
+A modern Single Page Application built with Vue 3 that allows users to explore movies, search for specific titles, and manage their favorite movies.
 
-This repository contains all the front-end development tasks I completed during my internship at **YoungDevInterns**. The tasks are categorized into three levels: **Basic**, **Intermediate**, and **Expert**, covering essential front-end skills from HTML and CSS to advanced JavaScript and front-end frameworks.
+## Features
 
-## 📌 Project Overview
-Each task is designed to enhance front-end development skills by implementing best practices, responsive design, interactivity, and performance optimizations.
+- Browse trending movies
+- Search for movies
+- View detailed movie information
+- Add/remove movies from favorites
+- Responsive design
+- Performance optimized with lazy loading and code splitting
 
----
+## Tech Stack
 
-## 🚀 Task List
+- Vue 3 (Composition API)
+- Vue Router
+- Pinia (State Management)
+- TailwindCSS
+- Axios
+- TMDB API
 
-### 🔹 Basic Tasks
+## Prerequisites
 
-#### 1️⃣ Basic HTML Structure
-- **Task:** Create a simple HTML page with a header, a main content section, and a footer.
-- **Objective:** Familiarize with HTML elements and structure.
+- Node.js (v14 or higher)
+- npm or yarn
+- TMDB API key
 
-#### 2️⃣ CSS Styling
-- **Task:** Style the HTML page using CSS (background color, font size, margin/padding, etc.).
-- **Objective:** Learn basic CSS syntax and styling properties.
+## Getting Started
 
-#### 3️⃣ Responsive Design
-- **Task:** Use media queries to adjust the layout for mobile devices.
-- **Objective:** Understand responsive design principles.
+1. Clone the repository:
 
----
-
-### 🔹 Intermediate Tasks
-
-#### 4️⃣ Build a Form with Validation
-- **Task:** Create a form with input fields and validate user input using JavaScript.
-- **Objective:** Improve form handling and validation skills.
-
-#### 5️⃣ Implement a Responsive Layout
-- **Task:** Design a webpage layout that adjusts for different screen sizes using media queries.
-- **Objective:** Enhance responsive design techniques.
-
-#### 6️⃣ Add Interactive Elements
-- **Task:** Use JavaScript to add interactive features like a modal popup or a dropdown menu.
-- **Objective:** Learn event handling and DOM manipulation.
-
----
-
-### 🔹 Expert Tasks
-
-#### 7️⃣ Develop a Single Page Application (SPA)
-- **Task:** Create an SPA using a front-end framework like **React** or **Vue.js**.
-- **Objective:** Learn state management and routing in modern frameworks.
-
-#### 8️⃣ Optimize Performance
-- **Task:** Implement performance improvements like lazy loading images, code splitting, and minimizing render-blocking resources.
-- **Objective:** Improve web performance optimization skills.
-
-#### 9️⃣ Integrate with APIs
-- **Task:** Fetch and display data from a third-party API, handling asynchronous operations.
-- **Objective:** Gain experience in API integration and dynamic UI updates.
-
----
-
-## 📂 Project Structure
-```
-YoungDevInterns-Frontend-Tasks/
-│── Basic-Tasks/
-│   ├── task-1-html-structure/
-│   ├── task-2-css-styling/
-│   ├── task-3-responsive-design/
-│
-│── Intermediate-Tasks/
-│   ├── task-4-form-validation/
-│   ├── task-5-responsive-layout/
-│   ├── task-6-interactive-elements/
-│
-│── Expert-Tasks/
-│   ├── task-7-spa/
-│   ├── task-8-performance-optimization/
-│   ├── task-9-api-integration/
-│
-└── README.md
+```bash
+git clone <repository-url>
+cd movie-explorer
 ```
 
----
+2. Install dependencies:
 
-## ⚡ Technologies Used
-- **HTML5**
-- **CSS3 & Responsive Design**
-- **JavaScript (ES6+)**
-- **Media Queries**
-- **React / Vue.js (for SPA)**
-- **API Integration (Fetch, Axios)**
+```bash
+npm install
+```
 
----
+3. Create a `.env` file in the root directory and add your TMDB API key:
 
-## 🎯 Key Learnings
-- Structuring and styling web pages
-- Implementing responsive and accessible designs
-- Adding interactivity with JavaScript
-- Working with front-end frameworks
-- Optimizing web performance
-- Handling API requests and managing asynchronous data
+```
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
 
----
+4. Start the development server:
 
-## 🤝 Connect with Me
-💼 **LinkedIn:** [Waqas Khane](https://www.linkedin.com/in/waqas-khan-a68602343/)  
-📂 **GitHub:** [Waqas Khane](https://github.com/Waqas-Khan-CodeCanvas)  
-📧 **Email:** [Email](waqaskhan0589@gmail.com)
+```bash
+npm run dev
+```
 
-Feel free to explore, fork, or contribute! 🚀
+5. Build for production:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+movie-explorer/
+├── src/
+│   ├── assets/        # Static assets
+│   ├── components/    # Reusable components
+│   ├── views/         # Page components
+│   ├── stores/        # Pinia stores
+│   ├── router/        # Vue Router configuration
+│   ├── api/          # API related code
+│   └── utils/        # Utility functions
+├── public/           # Public assets
+└── index.html        # Entry HTML file
+```
+
+## Performance Optimizations
+
+- Lazy loading of images
+- Code splitting with dynamic imports
+- Route-based code splitting
+- Debounced search input
+- Optimized asset loading
+- Local storage for favorites
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
