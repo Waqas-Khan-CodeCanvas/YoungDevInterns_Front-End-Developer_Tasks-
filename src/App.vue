@@ -34,7 +34,7 @@
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <p class="text-center text-sm" style="color: #6b7280">
-          © {{ new Date().getFullYear() }} Movie Explorer. Made with ❤️
+          © {{ new Date().getFullYear() }} Movie Explorer. Made with ❤️ by Waqas Khan
         </p>
       </div>
     </footer>
